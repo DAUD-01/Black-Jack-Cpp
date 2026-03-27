@@ -185,7 +185,7 @@ int main() {
 
     // Set color to bright yellow for the second line
     SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY);
-    cout << string((consoleWidth - 24) / 2, ' ') << "Created By Dawood and Aneed\n\n";
+    cout << string((consoleWidth - 24) / 2, ' ') << "Created By Dawood\n\n";
 
     // Reset to default color
     SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
